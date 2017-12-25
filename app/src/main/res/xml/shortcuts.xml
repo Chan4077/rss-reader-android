@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_compass_black_24dp"
+        android:shortcutId="explore"
+        android:shortcutLongLabel="@string/title_explore"
+        android:shortcutShortLabel="@string/title_explore">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.edricchan.rssreader.MainActivity"
+            android:targetPackage="com.edricchan.rssreader" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
